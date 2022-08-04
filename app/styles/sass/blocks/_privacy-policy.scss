@@ -1,0 +1,36 @@
+.p-p-section__wrapper {
+  margin-top: 40px;
+  margin-bottom: 150px;
+  width: 100%;
+}
+.p-p-section__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 140%;
+  margin-bottom: 22px;
+  @media (max-width: 375px) {
+    font-size: 28px;
+  }
+}
+.p-p-section__article {
+  margin-bottom: 40px;
+  &:last-child {
+    margin: 0;
+  }
+}
+.p-p-section__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}
+.p-p-section__subtitle {
+  margin-bottom: -8px;
+}
+ul.p-p-section__list {
+  list-style: disc inside;
+}
+.p-p-section__list-item {
+  padding-left: 15px;
+}
